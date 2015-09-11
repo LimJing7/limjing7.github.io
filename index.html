@@ -3,31 +3,41 @@
 
 <head>
 	<!-- add styling to the assets/css folder-->
-	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
+    <script src="assets/js/nav.js" async></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" async></script>
 
 </head>
 
 <body>
-	<div class="body-center">
-		<!-- navbar -->
-		<span class="navbar">
-			<a href="index.html">Home</a>
-			<a href="aboutme.html">About Me</a>
-			<a href="projects.html">Projects</a>
-			<a href="contact.html">Contact</a>
-		</span>
-		<!-- end navbar --> 
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand">Lim Jing</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li id="home" class="active"><a>Home</a></li>
+            <li id="about"><a href="aboutme.html">About Me</a></li>
+            <li id="projects"><a href="projects.html">Projects</a></li>
+            <li id="contact"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- end navbar --> 
+	<main>
+		
 		<br><br>
 
 
 		<h1>Lim Jing</h1>
 
 		Welcome to my online portfolio!
-	</div>
-	
-	<!-- add javascript code to the assets/js folder-->
-	<script type="text/javascript" src="assets/js/portfolio.js"></script>
+	</main>
 </body>
 </html>
