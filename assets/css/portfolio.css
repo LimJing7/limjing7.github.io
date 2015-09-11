@@ -5,11 +5,16 @@ a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
 body {
-    background-color: #b0c4de;
+    font-family: 'Lato', sans-serif;
 }
 
-.h1{
-    align: center;
+h1{
+    align-self: flex-end;
+    font-size: 500%;
+}
+
+div{
+    font-size: 20px;
 }
 
 .navbar
