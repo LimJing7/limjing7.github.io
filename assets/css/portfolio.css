@@ -4,53 +4,24 @@ a{color:0x0000FF !important;}
 a:hover{color:0xFF3300 !important;}
 a:visited{color:0xFFCCCC !important;}
 
-body {
+main {
     font-family: 'Lato', sans-serif;
+    padding-left: 10%;
+    height: 100%
+    width: 100%
 }
 
 h1{
-    align-self: flex-end;
     font-size: 500%;
 }
 
-div{
-    font-size: 20px;
+
+body {
+  padding-top: 60px;
 }
 
 .navbar
 {
-	float:left;
 	padding:5px;
-	margin-top:20px;
 	display:block;
-}
-
-.clearfix
-{
-	clear:both;
-}
-
-.floatright 
-{
-	margin:5px;
-	float:right;
-}
-
-.floatleft
-{
-	float:left;
-	clear:both;
-}
-
-
-.body-center
-{
-	width: 700px ;
-	margin-left: auto ;
-	margin-right: auto ;
-}
-
-#profile-picture
-{
-	margin-left: 20px;
 }
