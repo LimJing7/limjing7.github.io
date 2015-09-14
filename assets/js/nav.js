@@ -1,7 +1,7 @@
 var w = $(window).width();
  
 function load_home(){
-    document.getElementById("main").innerHTML='<object type="text/html" data="home.html" ></object>';
+    $("#main").load("home.html");
 }
 
 function load_about(){
@@ -9,9 +9,9 @@ function load_about(){
 }
 
 function load_projects(){
-    document.getElementById("main").innerHTML='<object type="text/html" data="projects.html" ></object>';
+    $("#main").load("projects.html");
 }
 
 function load_contact(){
-    document.getElementById("main").innerHTML='<object type="text/html" data="contact.html" width=w></object>';
+    $("#main").load("contact.html");
 }
